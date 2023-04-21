@@ -54,6 +54,7 @@ a:hover {
     position: relative;
 }
 
+/*Faz o efeito do circulo*/
 .extras {
     position: absolute;
     border-radius: 100% 0% 0% 0%;
