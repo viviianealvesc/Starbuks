@@ -66,8 +66,22 @@ a:hover {
     background-color: #017143;
 }
 
+
 .drink-principal {
     filter: drop-shadow(0 0 20px #17cc81);
+    animation: drink 5s infinite;
+}
+
+@keyframes drink {
+    0% {
+        transform: translateY(30px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translatey(30px);
+    }
 }
 
 .social-midia {
